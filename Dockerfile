@@ -14,7 +14,7 @@ RUN go get -d -v ./...
 RUN go install -v ./...
 
 # Expose port 8080 to the outside world
-EXPOSE 9999
+EXPOSE 80
 
 # Command to run the executable
 CMD ["app"]

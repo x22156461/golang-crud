@@ -5,5 +5,3 @@ phases:
     commands:
 #      - go mod download
       - go build -o main .
-artifacts:
-  files: main
