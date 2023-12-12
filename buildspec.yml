@@ -3,5 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-#      - go mod download
+      - go mod download
       - go build -o main .
+artifacts:
+  files: main
